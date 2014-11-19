@@ -1,0 +1,9 @@
+@charset 'utf-8';
+
+._login-container {
+	margin: 0px auto;
+	width: 600px;
+	height: auto;
+	border: 1px solid #333;
+	clear: both;
+}

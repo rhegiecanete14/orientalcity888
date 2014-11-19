@@ -1,0 +1,43 @@
+._text-align-l { text-align: left; }
+._text-align-c { text-align: center; }
+._text-align-r { text-align: right; }
+
+._row { display: block; }
+._float-l { float: left; }
+._float-c { float: center; }
+._float-r { float: right; }
+
+._margin-l-small { margin-left: 12.5px; } ._margin-l-medium { margin-left: 25px; } ._margin-l-large { margin-left: 37.5px; }
+._margin-t-small { margin-top: 12.5px; } ._margin-t-medium { margin-top: 25px; } ._margin-t-large { margin-top: 37.5px; }
+._margin-r-small { margin-right: 12.5px; } ._margin-r-medium { margin-right: 25px; } ._margin-r-large { margin-right: 37.5px; }
+._margin-b-small { margin-bottom: 12.5px; } ._margin-b-medium { margin-bottom: 25px; } ._margin-b-large { margin-bottom: 37.5px; }
+
+.clear { clear: both; }
+.none { display: none; }
+.block { display: block; }
+
+.b { font-weight: bold; }
+.u { text-decoration: underline; }
+.i { font-style: italic; }
+
+._button { padding: 10px; cursor: pointer; cursor: hand; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -ms-border-radius: 10px; background: #D8D7D9; }
+._button-small{ font-size: 10px; } 
+._button-medium{ font-size: 12.5px; } 
+._button-large{ font-size: 15px; } 
+
+._w-small { width: 12.5px; } ._w-medium { width: 25px;  } ._w-large { width: 37.5px; }
+._h-small { height: 12.5px; } ._h-medium { height: 25px; } ._h-large { height: 37.5px; }
+._field-w-small { width: 75px; } ._field-w-medium { width: 150px; } ._field-w-large { width: 225px; }
+
+._section-w-small { width: 300px; } ._section-w-medium { width: 500px; } ._section-w-large { width: 750px; }
+
+._menu-toggle { text-align: left; padding: 10px; width: 175px; height: 250px; position: absolute; top: 70px; right: 75px; overflow: scroll-y; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -ms-border-radius: 5px; 
+	box-shadow: .5px .5px 5px 5px #D7D7D7; background: #F7F7F7; }
+._sub-menu-first { margin-left: 7.5px; color: #333; }
+	
+._table-row { clear: both; }
+._table-header { padding: 7.5px; padding-top: 10px; padding-bottom: 10px; color: #F7F7F7; background: #777; }
+._table-column { width: 50px; float: left; }
+
+.green { text-decoration: underline; color: #373 !important; }
+.blue { color: #0076E8; }

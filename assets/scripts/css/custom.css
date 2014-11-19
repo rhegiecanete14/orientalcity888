@@ -1,0 +1,18 @@
+@charset 'utf-8';
+
+._section-container { 
+	padding: 12.5px;
+	height: auto;
+	border: 1px solid #AAA; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -ms-border-radius: 5px; 
+	box-shadow: .5px .5px 5px 5px #D7D7D7;
+}
+._section-header { 
+	text-align: right;
+	padding: 5px; 
+	border-radius: 3px; -moz-border-radius: 3px; --webkit-border-radius: 3px; -ms-border-radius: 3px;
+	color: #F7F7F7;
+	background: #777;
+}
+.section-content {
+	margin-top: 12.5px;
+}

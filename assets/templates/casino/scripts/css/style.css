@@ -1,0 +1,70 @@
+@charset 'utf-8';
+
+@font-face {
+  font-family: 'Open Sans'; font-style: normal; font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('../../fonts/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+body { 
+	text-align: center; 
+	width: 100%; 
+	height: 100%; 
+	font-family: 'Open Sans', Helvetica, Sans-serif; font-size: 12px;
+	position: relative;
+	z-index: 1; 
+	color: #555;
+	background: #F7F7F7;
+}
+
+input[type=text], input[type=password], input[type=email], textarea, select, option { 
+	padding: 7.5px;
+	font-family: 'Open Sans', Helvetica, Sans-serif;
+	border: 1px solid #D7D7D7;
+	color: #555;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, textarea:focus, select:focus, option:focus { 
+	box-shadow: .5px .5px 5px 1px #A7A7A7;
+}
+
+input[type=button], input[type=submit], input[type=reset], button {
+	padding: 6.5px;
+	font-family: 'Open Sans', Helvetica, Sans-serif;
+	cursor: pointer; cursor: hand;
+	border: 1px solid #D7D7D7;
+	color: #555;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover, button:hover {
+	box-shadow: .5px .5px 5px 1px #A7A7A7;
+}
+
+input[type=checkbox], input[type=radio] {
+	position: relative;
+	top: 2.5px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	padding: 7.5px; padding-top: 2.5px; padding-bottom: 2.5px;
+	margin-top: 5px;
+	margin-left: 7.5px;
+	cursor: pointer; cursor: hand;
+	color: #004276;
+}
+
+ul li:nth-child(even) {
+	background: #E7E7E7;
+}
+
+ul li:hover {
+	text-decoration: underline;
+}
+
+header { text-align: right; padding: 25px; padding-top: 12.5px; padding-bottom: 12.5px; color: #F7F7F7; background: #333; }
+footer { text-align: left; padding: 25px; width: 100%; position: fixed; bottom: 0px; color: #F7F7F7; background: #555; }
